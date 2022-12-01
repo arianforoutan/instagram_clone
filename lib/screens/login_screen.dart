@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
       ),
       child: Scaffold(
-        resizeToAvoidBottomInset: true,
+        // resizeToAvoidBottomInset: true,
         backgroundColor: Colors.transparent,
         body: SingleChildScrollView(
           scrollDirection: Axis.vertical,
@@ -100,6 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 44),
                 child: TextField(
+                  style: TextStyle(color: Colors.white),
                   focusNode: negahdar1,
                   decoration: InputDecoration(
                     contentPadding:
@@ -135,6 +136,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 44),
                 child: TextField(
+                  style: TextStyle(color: Colors.white),
                   focusNode: negahdar2,
                   decoration: InputDecoration(
                     contentPadding:
