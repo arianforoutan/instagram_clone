@@ -5,6 +5,7 @@ import 'package:arigram/screens/searchscreen.dart';
 import 'package:arigram/screens/user_profile.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class MainScreen extends StatefulWidget {
   MainScreen({Key? key}) : super(key: key);

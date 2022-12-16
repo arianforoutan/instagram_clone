@@ -7,6 +7,7 @@ import 'package:arigram/screens/searchscreen.dart';
 import 'package:arigram/screens/switch_account.dart';
 import 'package:arigram/screens/user_profile.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(Application());
@@ -19,6 +20,11 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+        appBarTheme: AppBarTheme(
+          systemOverlayStyle: SystemUiOverlayStyle(
+            statusBarColor: Color(0xffF35383),
+          ),
+        ),
         textTheme: TextTheme(
           headline4: TextStyle(
               fontFamily: 'GB',
